@@ -11,3 +11,8 @@ public class Super150SmsApplication {
     }
 
 }
+
+//controller -> request
+//service -> logic
+//repository -> database
+//model -> data schema

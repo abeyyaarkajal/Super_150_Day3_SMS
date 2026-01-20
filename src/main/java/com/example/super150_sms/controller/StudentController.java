@@ -1,0 +1,12 @@
+package com.example.super150_sms.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+    @GetMapping("/")
+    public String student(){
+        return "HomePage for Student";
+    }
+}
